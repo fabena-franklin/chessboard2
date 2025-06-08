@@ -1,0 +1,22 @@
+.ChessBoard{
+   
+width: 320px;
+height: 320px;
+display: flex;
+flex-wrap: wrap;
+ border: 2px solid black;
+ 
+}
+
+.white{
+    width: 40px;
+     height: 40px;
+    display: inline-block; 
+    background-color: white;
+}
+.black{
+    width: 40px;
+     height: 40px;
+    display: inline-block; 
+    background-color: black;
+}
